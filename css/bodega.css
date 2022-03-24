@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    width: 100%;
+    height: 800px;
+    
+    
+}
+.container-menu {
+    width: 100%;
+    height: 80px;
+    background-color:rgba(212, 87, 87, 0.747);
+}
+a {
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    
+    color: rgb(243, 239, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 19px;
+    
+}
+.contenedor-general {
+    width: 100%;
+    height: 758px;
+    
+}
+.contenedor-division {
+    width:100%;
+    height: 758px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+.contenedor-menuizq {
+    width: 100%;
+    height: 758px;
+    background-color: #2E0F79;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    
+.cuadro-logo,  .cuadro-usuario,
+.cuadro-receta, .cuadro-buscar, 
+.productos, .cerrar-sesion,
+.cuadro-ingresar, .cuadro-limpiar {
+
+    width: 160px;
+    height: 100px;
+    background-color: #00345A;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #EFFF00;
+}
+.cuadro-logo:hover, .cuadro-usuario:hover,
+.cuadro-receta:hover, .cuadro-buscar:hover, 
+.productos:hover, .cerrar-sesion:hover,
+.cuadro-ingresar:hover, .cuadro-limpiar:hover
+ {
+    background-color: #EFFF00;
+    color: #00345A;
+    font-weight: bolder;
+}
+
+.contenedor-menucentral {
+    width: 100%;
+    height: 758px;
+    
+    
+}
+.contenedor-hoja-formulario {
+    width: 100%;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: px;
+    
+}  
+.contenedor-titulo {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.contenedor-buscar, .contenedor-input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+
+.contenedor-formulario {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    
+    
+    
+} 
+
+
+
+
+
+.contenedor-menuder {
+    width: 100%;
+    height: 758px;
+    background-color: darkgreen;
+} 
+.contenedor-menuder {
+    width: 100%;
+    height: 758px;
+    background-color: #2E0F79;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
